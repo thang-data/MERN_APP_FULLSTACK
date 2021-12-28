@@ -1,0 +1,20 @@
+POST http://localhost:5000/api/posts
+Content-Type: : application/json
+Authorization: : Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWJjMGVhZjJhNjBiODliYjRiZThmOGQiLCJpYXQiOjE2Mzk4MDA3NjR9.BVSAORdXMfDGIovjD1SFM9KbJEfegVDDGePuEGxKCb4
+
+{
+   "title": "datajswc",
+   "description": "abcdd",
+   "url" : "tiki.com",
+   "status": "LEARED"
+}
+
+###
+
+POST  https://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "nguyenducthang",
+    "password":"typro123"
+}
